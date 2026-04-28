@@ -152,10 +152,6 @@ public class Footsteps : MonoBehaviour
             case "Inside_wood":
                 surfaceParameter = "Wood";
                 break;
-
-            case "Bed":
-                surfaceParameter = "Bed";
-                break;
         }
 
         // Jeśli znaleziono pasujący parametr, odtwórz dźwięk.
