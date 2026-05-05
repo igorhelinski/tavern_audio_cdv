@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: -564039296
     Data4: 335053628
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 102000
---- !u!114 &-2103252650233505133
+--- !u!114 &-5673190052547818183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,15 +37,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../TavernSFX_FmodStart/TavernSFX/FMOD/Tavern/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 639123956715607930
+  Path: Assets/FMOD/Tavern/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639136061398229812
   FileSizes:
   - Name: Desktop
-    Value: 1168
+    Value: 5060192
   Exists: 1
 --- !u!114 &-1796000257692766921
 MonoBehaviour:
@@ -93,7 +93,7 @@ MonoBehaviour:
     Data3: -550735485
     Data4: -777196389
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -101,6 +101,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 89500
+--- !u!114 &-177641023126789211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: Assets/FMOD/Tavern/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639136061398239880
+  FileSizes:
+  - Name: Desktop
+    Value: 1244
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,8 +134,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: -2103252650233505133}
-  - {fileID: 4034192327225909825}
+  - {fileID: -177641023126789211}
+  - {fileID: -5673190052547818183}
   EditorEvents:
   - {fileID: 2944327320209622826}
   - {fileID: 5928029198699601526}
@@ -127,11 +147,11 @@ MonoBehaviour:
   - {fileID: 1496619746427343696}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   StringsBanks:
-  - {fileID: -2103252650233505133}
+  - {fileID: -177641023126789211}
   cacheVersion: 131859
-  cacheTime: 639123956715607930
+  cacheTime: 639136061398239880
   SerializableEventsDict:
   - key: event:/ambient_tavern
     index: 0
@@ -195,7 +215,7 @@ MonoBehaviour:
     Data3: 527923114
     Data4: -292527991
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -249,7 +269,7 @@ MonoBehaviour:
     Data3: -417168974
     Data4: -2041119916
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -277,7 +297,7 @@ MonoBehaviour:
     Data3: 1096001195
     Data4: -19379660
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -305,7 +325,7 @@ MonoBehaviour:
     Data3: 1084981691
     Data4: -1848486183
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -340,26 +360,6 @@ MonoBehaviour:
   - rock
   - stairs
   Exists: 1
---- !u!114 &4034192327225909825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../TavernSFX_FmodStart/TavernSFX/FMOD/Tavern/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 639123956715592233
-  FileSizes:
-  - Name: Desktop
-    Value: 5059872
-  Exists: 1
 --- !u!114 &5928029198699601526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
     Data3: -1720485442
     Data4: 2067983179
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -407,7 +407,7 @@ MonoBehaviour:
     Data3: 48745356
     Data4: -512884688
   Banks:
-  - {fileID: 4034192327225909825}
+  - {fileID: -5673190052547818183}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
