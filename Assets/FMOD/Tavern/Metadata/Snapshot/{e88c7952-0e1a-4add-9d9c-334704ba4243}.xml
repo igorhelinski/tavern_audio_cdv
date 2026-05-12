@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{e88c7952-0e1a-4add-9d9c-334704ba4243}">
 		<property name="name">
-			<value>New Snapshot</value>
+			<value>Outside</value>
 		</property>
 		<relationship name="mixer">
 			<destination>{7822faaa-c99f-4298-a112-8d038b89529f}</destination>
@@ -39,6 +39,9 @@
 		<property name="value">
 			<value>0</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{adad0487-994b-4019-915b-6ffbf206229e}</destination>
+		</relationship>
 		<relationship name="automatableObject">
 			<destination>{c1a91a35-7f68-4443-aac3-29db1d349e3a}</destination>
 		</relationship>
@@ -48,8 +51,11 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>0</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{1db3c11d-b17e-4077-b572-1d5d14a54fcf}</destination>
+		</relationship>
 		<relationship name="automatableObject">
 			<destination>{65a16232-d2be-487f-8ee9-b01ee6b086b9}</destination>
 		</relationship>
@@ -63,5 +69,48 @@
 		<relationship name="mixerStrip">
 			<destination>{65a16232-d2be-487f-8ee9-b01ee6b086b9}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{adad0487-994b-4019-915b-6ffbf206229e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>360</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>2600</value>
+		</property>
+		<property name="releaseTime">
+			<value>360</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{1db3c11d-b17e-4077-b572-1d5d14a54fcf}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>360</value>
+		</property>
+		<property name="peakValue">
+			<value>-15.0222225</value>
+		</property>
+		<property name="decayTime">
+			<value>910.25647</value>
+		</property>
+		<property name="sustainValue">
+			<value>-15</value>
+		</property>
+		<property name="releaseTime">
+			<value>360</value>
+		</property>
 	</object>
 </objects>

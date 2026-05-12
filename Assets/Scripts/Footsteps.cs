@@ -134,11 +134,17 @@ public class Footsteps : MonoBehaviour
     private void PlaySurfaceSound(EventInstance soundInstance, EventReference eventRef, string surfaceTag)
     {
         // sprawdz czy paramet istnieje
+        string surface = string.Empty;
         switch (surfaceTag)
         {
-            case "rock":
+            case "Inside_stone":
+                surface = "rock";
                 break;
-            case "wood":
+            case "Inside_wood":
+                surface = "wood";
+                break;
+            case "Outside":
+                surface = "rock";
                 break;
             default:
                 return; // nie znaleziono - wyjdz
@@ -146,7 +152,7 @@ public class Footsteps : MonoBehaviour
 
         // Jeśli znaleziono pasujący parametr, odtwórz dźwięk.
         soundInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform));
-        soundInstance.setParameterByNameWithLabel("footsteps", surfaceTag);
+        soundInstance.setParameterByNameWithLabel("footsteps", surface);
         soundInstance.start();
     }
 

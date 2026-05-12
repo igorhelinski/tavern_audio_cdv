@@ -61,6 +61,7 @@ public class Outside_foot_switch : MonoBehaviour
         {
             // Tworzy i startuje instancję snapshotu.
             outsideSnapshotInstance = FMODUnity.RuntimeManager.CreateInstance(outsideSnapshot);
+
             outsideSnapshotInstance.start();
         }
         else
