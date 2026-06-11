@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Assets/FMOD/Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639154209460026442
+  lastModified: 639168161124525957
   FileSizes:
   - Name: Desktop
     Value: 5062720
@@ -116,7 +116,7 @@ MonoBehaviour:
   Path: Assets/FMOD/Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639154209460041354
+  lastModified: 639168161124545954
   FileSizes:
   - Name: Desktop
     Value: 1378
@@ -152,7 +152,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -177641023126789211}
   cacheVersion: 131859
-  cacheTime: 639154209460041354
+  cacheTime: 639168161124545954
   SerializableEventsDict:
   - key: event:/ambient_tavern
     index: 0
